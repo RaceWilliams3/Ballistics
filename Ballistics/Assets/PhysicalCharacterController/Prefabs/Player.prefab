@@ -186,6 +186,7 @@ GameObject:
   - component: {fileID: 5037619874638700613}
   - component: {fileID: 5037619874638700612}
   - component: {fileID: 5037619874638700615}
+  - component: {fileID: 8730724469114439294}
   - component: {fileID: 5037619874638700618}
   m_Layer: 0
   m_Name: Player
@@ -254,6 +255,19 @@ MonoBehaviour:
   platformVelocity: {x: 0, y: 0, z: 0}
   applyCollision: 1
   pushForce: 55
+--- !u!114 &8730724469114439294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5037619874638700614}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b594bbd208e414a48938d78e8236f3d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frogPrefab: {fileID: 0}
 --- !u!114 &5037619874638700618
 MonoBehaviour:
   m_ObjectHideFlags: 0

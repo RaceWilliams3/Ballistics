@@ -3632,6 +3632,9 @@ GameObject:
   - component: {fileID: 4691832418928178}
   - component: {fileID: 95172607052263456}
   - component: {fileID: 136685980256629510}
+  - component: {fileID: 5493328011702970445}
+  - component: {fileID: 3130159704477464310}
+  - component: {fileID: 8505583437877199724}
   m_Layer: 0
   m_Name: ToxicFrog
   m_TagString: Untagged
@@ -3693,6 +3696,61 @@ CapsuleCollider:
   m_Height: 0.28
   m_Direction: 2
   m_Center: {x: 0, y: 0.07, z: 0}
+--- !u!54 &5493328011702970445
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644373995442134}
+  serializedVersion: 2
+  m_Mass: 2
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 80
+  m_CollisionDetection: 0
+--- !u!114 &3130159704477464310
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644373995442134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d4520f284aa67e9408a6dd607a4dab61, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  myTimeScale: 1
+  target: {fileID: 0}
+  launchForce: 10
+  wanderRadius: 3
+  wanderOffset: 10
+  jumpFreq: 1
+--- !u!114 &8505583437877199724
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1644373995442134}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed1a9b8583901482d9890a401a5be5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  frog: {fileID: 1644373995442134}
+  frogsBody: {fileID: 1348389935115422}
+  blue: {fileID: 2100000, guid: cca42b20867c44ba8981cb8c0958b1d1, type: 2}
+  balckOnRedSpot: {fileID: 2100000, guid: 8a4d341f618654371ad279350d04e49d, type: 2}
+  orangeBlackBlue: {fileID: 2100000, guid: 82258f0e08d574b24b1c786640fdae45, type: 2}
+  redGreenBlack: {fileID: 2100000, guid: a6966664c834d410daa31bc4ea1863a6, type: 2}
+  yellow: {fileID: 2100000, guid: a3b2303950a624313b019c4834557628, type: 2}
+  yellowOnBlack: {fileID: 2100000, guid: 989ddabccad084bdb8cc0c19d680b330, type: 2}
+  guts: {fileID: 1387908168178666, guid: b0dea9a92e04b412daeb449ac74853bd, type: 3}
 --- !u!1 &1651717217587476
 GameObject:
   m_ObjectHideFlags: 0
